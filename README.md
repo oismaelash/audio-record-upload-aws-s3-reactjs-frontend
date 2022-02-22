@@ -1,3 +1,6 @@
+# Demo
+<img src="https://raw.githubusercontent.com/ismaelash/audio-record-upload-aws-s3-reactjs-frontend/main/demo.png" width="1784"/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
