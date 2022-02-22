@@ -47,13 +47,9 @@ function App() {
 
   async function onRecordingFinish (event) {
     console.log("RECORDING AUDIO COMPLETE")
-    const audioChunks = [];
-    audioChunks.push(event.data);
     const blob = new Blob(audioChunks, { type: "audio/mp3" });
     setBlobAudio(blob)
-    const blob_stream = blob.stream()
     console.log('AUDIO blob', blob)
-    console.log('AUDIO ReadableStream', blob_stream)
 
     const audioURL = URL.createObjectURL(blob);
     setAudioUrl(audioURL)
